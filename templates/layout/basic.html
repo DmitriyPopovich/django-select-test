@@ -1,0 +1,25 @@
+{% load bootstrap5 %}
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{% block title %}Selectors{% endblock %}</title>
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+</head>
+<body class="container-fluid">
+<header class="mb-4">
+    <h1 class="display-1 text-center">Selectors</h1>
+</header>
+
+<div class="row">
+    <section class="col border py-2">
+        {% bootstrap_messages %}
+        {% block content %}{% endblock %}
+    </section>
+</div>
+</body>
+</html>

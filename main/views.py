@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from main.forms import SelectorForm
 from main.services import ApiService
-from main.utils import get_initial, get_kwargs, prepare_api_data
+from main.utils import get_initial, get_kwargs
 
 api_service = ApiService()
 

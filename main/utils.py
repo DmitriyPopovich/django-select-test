@@ -1,5 +1,4 @@
 
-
 def prepare_api_data(data):
     res = list()
     res.append(('', '--------'))
